@@ -1,0 +1,11 @@
+{
+  "@@locale": "ja",
+  "helloWorld": "こんにちは 世界!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sample_string": "私の名前は山田太郎です！",
+  "@sample_string": {
+    "description": "Sample string to demonstrate localization"
+  }
+}
