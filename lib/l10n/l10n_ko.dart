@@ -20,4 +20,10 @@ class L10nKo extends L10n {
 
   @override
   String get signUp => '신규 등록';
+
+  @override
+  String get logout => '로그아웃';
+
+  @override
+  String get license => '라이선스';
 }

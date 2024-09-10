@@ -20,4 +20,10 @@ class L10nEn extends L10n {
 
   @override
   String get signUp => 'New Registration';
+
+  @override
+  String get logout => 'logout';
+
+  @override
+  String get license => 'License';
 }

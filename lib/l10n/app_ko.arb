@@ -4,5 +4,7 @@
     "confirmPassword": "비밀번호 확인",
     "mail": "이메일 주소",
     "signIn": "로그인",
-    "signUp": "신규 등록"
+    "signUp": "신규 등록",
+    "logout": "로그아웃",
+    "license": "라이선스"
 }

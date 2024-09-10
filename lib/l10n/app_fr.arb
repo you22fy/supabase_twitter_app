@@ -4,5 +4,7 @@
     "confirmPassword": "vérification du mot de passe",
     "mail": "adresse électronique",
     "signIn": "connexion",
-    "signUp": "Nouvel enregistrement"
+    "signUp": "Nouvel enregistrement",
+    "logout": "déconnexion",
+    "license": "licence"
 }

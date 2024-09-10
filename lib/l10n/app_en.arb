@@ -4,5 +4,7 @@
     "confirmPassword": "Password Confirmation",
     "mail": "Email Address",
     "signIn": "Login",
-    "signUp": "New Registration"
+    "signUp": "New Registration",
+    "logout": "logout",
+    "license": "License"
 }

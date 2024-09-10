@@ -4,5 +4,7 @@
     "confirmPassword": "密码验证",
     "mail": "电子邮件地址",
     "signIn": "登录",
-    "signUp": "新注册"
+    "signUp": "新注册",
+    "logout": "注销",
+    "license": "许可"
 }

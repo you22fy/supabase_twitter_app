@@ -20,4 +20,10 @@ class L10nZh extends L10n {
 
   @override
   String get signUp => '新注册';
+
+  @override
+  String get logout => '注销';
+
+  @override
+  String get license => '许可';
 }

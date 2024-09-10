@@ -130,6 +130,18 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'新規登録'**
   String get signUp;
+
+  /// No description provided for @logout.
+  ///
+  /// In ja, this message translates to:
+  /// **'ログアウト'**
+  String get logout;
+
+  /// No description provided for @license.
+  ///
+  /// In ja, this message translates to:
+  /// **'ライセンス'**
+  String get license;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

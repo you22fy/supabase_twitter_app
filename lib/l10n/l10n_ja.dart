@@ -20,4 +20,10 @@ class L10nJa extends L10n {
 
   @override
   String get signUp => '新規登録';
+
+  @override
+  String get logout => 'ログアウト';
+
+  @override
+  String get license => 'ライセンス';
 }

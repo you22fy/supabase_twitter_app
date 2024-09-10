@@ -1,8 +1,7 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'components/debug_router_list.dart';
+import 'components/app_drawer.dart';
 
 class IndexPage extends HookConsumerWidget {
   const IndexPage({super.key});
@@ -13,11 +12,7 @@ class IndexPage extends HookConsumerWidget {
       appBar: AppBar(
         title: const Text('Index Page'),
       ),
-      drawer: kDebugMode
-          ? const Drawer(
-              child: DebugRouterList(),
-            )
-          : null,
+      drawer: const AppDrawer(),
       body: const Center(
         child: Text('Index Page'),
       ),

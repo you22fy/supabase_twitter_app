@@ -20,4 +20,10 @@ class L10nFr extends L10n {
 
   @override
   String get signUp => 'Nouvel enregistrement';
+
+  @override
+  String get logout => 'déconnexion';
+
+  @override
+  String get license => 'licence';
 }
