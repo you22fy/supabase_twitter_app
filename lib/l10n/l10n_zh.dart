@@ -53,4 +53,10 @@ class L10nZh extends L10n {
 
   @override
   String get tweetHintText => '你现在怎么样？';
+
+  @override
+  String get selectLanguage => '语言选择';
+
+  @override
+  String get selectLanguageCaution => '更改语言可立即切换应用程序的显示语言。';
 }

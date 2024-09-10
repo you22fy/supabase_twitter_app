@@ -53,4 +53,10 @@ class L10nJa extends L10n {
 
   @override
   String get tweetHintText => 'いまどうしてる？';
+
+  @override
+  String get selectLanguage => '言語選択';
+
+  @override
+  String get selectLanguageCaution => '※ 言語を変更すると、アプリの表示言語が即時に切り替わります。';
 }

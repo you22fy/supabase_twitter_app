@@ -15,5 +15,7 @@
     "edit": "édition",
     "tweets": "tweet",
     "likes": "Bon.",
-    "tweetHintText": "Comment allez-vous maintenant ?"
+    "tweetHintText": "Comment allez-vous maintenant ?",
+    "selectLanguage": "Sélection de la langue",
+    "selectLanguageCaution": "Le changement de langue modifie immédiatement la langue d'affichage de l'application."
 }

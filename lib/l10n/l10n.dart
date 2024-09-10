@@ -196,6 +196,18 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'いまどうしてる？'**
   String get tweetHintText;
+
+  /// No description provided for @selectLanguage.
+  ///
+  /// In ja, this message translates to:
+  /// **'言語選択'**
+  String get selectLanguage;
+
+  /// No description provided for @selectLanguageCaution.
+  ///
+  /// In ja, this message translates to:
+  /// **'※ 言語を変更すると、アプリの表示言語が即時に切り替わります。'**
+  String get selectLanguageCaution;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

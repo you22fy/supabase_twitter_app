@@ -53,4 +53,10 @@ class L10nKo extends L10n {
 
   @override
   String get tweetHintText => '지금 어떻게 지내세요?';
+
+  @override
+  String get selectLanguage => '언어 선택';
+
+  @override
+  String get selectLanguageCaution => '언어를 변경하면 앱의 표시 언어가 즉시 전환됩니다.';
 }

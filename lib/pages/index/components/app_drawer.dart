@@ -5,6 +5,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../../../l10n/l10n.dart';
 import '../../../providers/app_user_provider.dart';
 import '../../../repositories/user_repository.dart';
+import 'language_select_dialog.dart';
 
 class AppDrawer extends HookConsumerWidget {
   const AppDrawer({super.key});
@@ -41,7 +42,10 @@ class AppDrawer extends HookConsumerWidget {
             leading: const Icon(Icons.language),
             title: Text(L10n.of(context)!.language),
             onTap: () {
-              debugPrint('language');
+              showDialog<void>(
+                context: context,
+                builder: (context) => const LanguageSelectorDialog(),
+              );
             },
           ),
           ListTile(

@@ -24,5 +24,7 @@
   "edit" : "編集",
   "tweets" : "ツイート",
   "likes" : "いいね",
-  "tweetHintText" : "いまどうしてる？"
+  "tweetHintText" : "いまどうしてる？",
+  "selectLanguage" : "言語選択",
+  "selectLanguageCaution" : "※ 言語を変更すると、アプリの表示言語が即時に切り替わります。"
 }

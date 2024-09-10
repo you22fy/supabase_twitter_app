@@ -15,5 +15,7 @@
     "edit": "editing",
     "tweets": "tweet",
     "likes": "Great.",
-    "tweetHintText": "What are you doing now?"
+    "tweetHintText": "What are you doing now?",
+    "selectLanguage": "Language Selection",
+    "selectLanguageCaution": "When you change the language, the display language of the application is immediately switched."
 }

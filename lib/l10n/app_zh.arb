@@ -15,5 +15,7 @@
     "edit": "编辑",
     "tweets": "鸣叫",
     "likes": "很好。",
-    "tweetHintText": "你现在怎么样？"
+    "tweetHintText": "你现在怎么样？",
+    "selectLanguage": "语言选择",
+    "selectLanguageCaution": "更改语言可立即切换应用程序的显示语言。"
 }

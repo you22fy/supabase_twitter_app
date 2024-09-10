@@ -53,4 +53,10 @@ class L10nEn extends L10n {
 
   @override
   String get tweetHintText => 'What are you doing now?';
+
+  @override
+  String get selectLanguage => 'Language Selection';
+
+  @override
+  String get selectLanguageCaution => 'When you change the language, the display language of the application is immediately switched.';
 }

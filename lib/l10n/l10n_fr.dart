@@ -53,4 +53,10 @@ class L10nFr extends L10n {
 
   @override
   String get tweetHintText => 'Comment allez-vous maintenant ?';
+
+  @override
+  String get selectLanguage => 'Sélection de la langue';
+
+  @override
+  String get selectLanguageCaution => 'Le changement de langue modifie immédiatement la langue d\'affichage de l\'application.';
 }

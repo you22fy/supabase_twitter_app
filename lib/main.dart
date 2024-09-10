@@ -4,6 +4,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'env/env.dart';
 import 'l10n/l10n.dart';
+import 'providers/locale_provider.dart';
 import 'router.dart';
 
 void main() async {
@@ -23,12 +24,14 @@ class MyApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final router = ref.watch(routerProvider);
+    final locale = ref.watch(localeNotifierProvider);
     return MaterialApp.router(
       title: 'Sample App',
 
       /// localizations
       localizationsDelegates: L10n.localizationsDelegates,
       supportedLocales: L10n.supportedLocales,
+      locale: locale,
 
       /// Router
       routerDelegate: router.routerDelegate,
