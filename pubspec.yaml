@@ -1,5 +1,5 @@
-name: hackathon_template_app
-description: "A new Flutter project."
+name: supabase_twitter_app
+description: "supabase_twitter_app"
 publish_to: "none"
 version: 1.0.0+1
 

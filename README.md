@@ -1,4 +1,4 @@
-# hackathon_template_app
+# supabase_twitter_app
 
 ## パッケージ名の変更について
 [こちらの記事](https://www.mochot.com/posts/flutter-project-package-name#androidmanifestxml-%E5%A4%89%E6%9B%B4)を参考にして変更を行う。

@@ -1,4 +1,4 @@
-package com.example.hackathon_template_app
+package com.example.supabase_twitter_app
 
 import io.flutter.embedding.android.FlutterActivity
 

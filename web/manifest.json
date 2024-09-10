@@ -1,6 +1,6 @@
 {
-    "name": "hackathon_template_app",
-    "short_name": "hackathon_template_app",
+    "name": "supabase_twitter_app",
+    "short_name": "supabase_twitter_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
