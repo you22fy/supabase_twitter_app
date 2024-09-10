@@ -38,13 +38,6 @@ class AppDrawer extends HookConsumerWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.edit_document),
-            title: Text(L10n.of(context)!.license),
-            onTap: () {
-              context.push('/license');
-            },
-          ),
-          ListTile(
             leading: const Icon(Icons.language),
             title: Text(L10n.of(context)!.language),
             onTap: () {
@@ -56,6 +49,13 @@ class AppDrawer extends HookConsumerWidget {
             title: Text(L10n.of(context)!.themeMode),
             onTap: () {
               debugPrint('themeMode');
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.edit_document),
+            title: Text(L10n.of(context)!.license),
+            onTap: () {
+              context.push('/license');
             },
           ),
           ListTile(
