@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class RegisterPage extends HookConsumerWidget {
-  const RegisterPage({super.key});
+class SignInPage extends HookConsumerWidget {
+  const SignInPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return const Scaffold(
       body: Center(
-        child: Text('Register Page'),
+        child: Text('Sign in Page'),
       ),
     );
   }

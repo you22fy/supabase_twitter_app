@@ -14,15 +14,15 @@ class DebugRouterList extends StatelessWidget {
     return ListView(
       children: [
         ListTile(
-          title: const Text('Login'),
+          title: const Text('SignIn'),
           onTap: () {
-            context.push('/login');
+            context.push('/sign_in');
           },
         ),
         ListTile(
-          title: const Text('Register'),
+          title: const Text('SignUp'),
           onTap: () {
-            context.push('/register');
+            context.push('/sign_up');
           },
         ),
         ListTile(

@@ -3,10 +3,10 @@ import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'pages/index/index_page.dart';
-import 'pages/login/login_page.dart';
 import 'pages/new_post/new_post_page.dart';
 import 'pages/profile/profile_page.dart';
-import 'pages/register/register_page.dart';
+import 'pages/sign_in/login_page.dart';
+import 'pages/sign_up/sign_up_page.dart';
 
 final routerProvider = Provider<GoRouter>(
   (ref) {
@@ -24,12 +24,12 @@ final routerProvider = Provider<GoRouter>(
           },
         ),
         GoRoute(
-          path: '/login',
-          name: 'login',
+          path: '/sign_in',
+          name: 'sign_in',
           pageBuilder: (context, state) {
             return MaterialPage(
               key: state.pageKey,
-              child: const LoginPage(),
+              child: const SignInPage(),
             );
           },
         ),
@@ -68,12 +68,12 @@ final routerProvider = Provider<GoRouter>(
           },
         ),
         GoRoute(
-          path: '/register',
-          name: 'register',
+          path: '/sign_up',
+          name: 'sign_up',
           pageBuilder: (context, state) {
             return MaterialPage(
               key: state.pageKey,
-              child: const RegisterPage(),
+              child: const SignUpPage(),
             );
           },
         ),
