@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
+import 'env/env.dart';
 import 'l10n/l10n.dart';
 import 'router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Supabase.initialize(
+    url: Env.supabaseUrl,
+    anonKey: Env.supabaseKey,
+  );
+
   const scopeApp = ProviderScope(child: MyApp());
   runApp(scopeApp);
 }

@@ -26,6 +26,7 @@ dependencies:
   flutter_hooks: ^0.20.5
   auto_translator: ^2.3.3
   pedantic_mono: ^1.27.0
+  supabase_flutter: ^2.6.0
 
 dev_dependencies:
   flutter_test:
