@@ -19,5 +19,9 @@
   "notSet" : "未設定",
   "profile" : "プロフィール",
   "themeMode" : "テーマ",
-  "language" : "言語"
+  "language" : "言語",
+  "errorMessage" : "エラーが発生しました。時間をおいて再度お試しください。",
+  "edit" : "編集",
+  "tweets" : "ツイート",
+  "likes" : "いいね"
 }

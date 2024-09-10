@@ -10,5 +10,9 @@
     "notSet": "déstabilisé",
     "profile": "Profil.",
     "themeMode": "thème",
-    "language": "Langue."
+    "language": "Langue.",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer après un certain temps.",
+    "edit": "édition",
+    "tweets": "tweet",
+    "likes": "Bon."
 }

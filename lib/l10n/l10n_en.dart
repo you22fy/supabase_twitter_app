@@ -38,4 +38,16 @@ class L10nEn extends L10n {
 
   @override
   String get language => 'Language';
+
+  @override
+  String get errorMessage => 'An error has occurred. Please try again in a few minutes.';
+
+  @override
+  String get edit => 'editing';
+
+  @override
+  String get tweets => 'tweet';
+
+  @override
+  String get likes => 'Great.';
 }

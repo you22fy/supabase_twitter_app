@@ -10,5 +10,9 @@
     "notSet": "미설정",
     "profile": "프로필",
     "themeMode": "테마",
-    "language": "언어"
+    "language": "언어",
+    "errorMessage": "오류가 발생했습니다. 시간을 두고 다시 시도해 주세요.",
+    "edit": "편집",
+    "tweets": "트윗",
+    "likes": "좋아요"
 }

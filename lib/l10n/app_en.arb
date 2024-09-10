@@ -10,5 +10,9 @@
     "notSet": "unset",
     "profile": "Profile",
     "themeMode": "theme",
-    "language": "Language"
+    "language": "Language",
+    "errorMessage": "An error has occurred. Please try again in a few minutes.",
+    "edit": "editing",
+    "tweets": "tweet",
+    "likes": "Great."
 }

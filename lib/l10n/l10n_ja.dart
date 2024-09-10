@@ -38,4 +38,16 @@ class L10nJa extends L10n {
 
   @override
   String get language => '言語';
+
+  @override
+  String get errorMessage => 'エラーが発生しました。時間をおいて再度お試しください。';
+
+  @override
+  String get edit => '編集';
+
+  @override
+  String get tweets => 'ツイート';
+
+  @override
+  String get likes => 'いいね';
 }

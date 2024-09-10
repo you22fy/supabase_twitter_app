@@ -38,4 +38,16 @@ class L10nZh extends L10n {
 
   @override
   String get language => '语言';
+
+  @override
+  String get errorMessage => '发生错误。请稍后再试。';
+
+  @override
+  String get edit => '编辑';
+
+  @override
+  String get tweets => '鸣叫';
+
+  @override
+  String get likes => '很好。';
 }

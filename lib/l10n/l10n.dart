@@ -166,6 +166,30 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'言語'**
   String get language;
+
+  /// No description provided for @errorMessage.
+  ///
+  /// In ja, this message translates to:
+  /// **'エラーが発生しました。時間をおいて再度お試しください。'**
+  String get errorMessage;
+
+  /// No description provided for @edit.
+  ///
+  /// In ja, this message translates to:
+  /// **'編集'**
+  String get edit;
+
+  /// No description provided for @tweets.
+  ///
+  /// In ja, this message translates to:
+  /// **'ツイート'**
+  String get tweets;
+
+  /// No description provided for @likes.
+  ///
+  /// In ja, this message translates to:
+  /// **'いいね'**
+  String get likes;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

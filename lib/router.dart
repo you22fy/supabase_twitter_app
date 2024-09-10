@@ -66,7 +66,7 @@ final routerProvider = Provider<GoRouter>(
             final id = state.pathParameters['id'];
             return MaterialPage(
               key: state.pageKey,
-              child: const ProfilePage(),
+              child: ProfilePage(id!),
             );
           },
         ),

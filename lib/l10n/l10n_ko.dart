@@ -38,4 +38,16 @@ class L10nKo extends L10n {
 
   @override
   String get language => '언어';
+
+  @override
+  String get errorMessage => '오류가 발생했습니다. 시간을 두고 다시 시도해 주세요.';
+
+  @override
+  String get edit => '편집';
+
+  @override
+  String get tweets => '트윗';
+
+  @override
+  String get likes => '좋아요';
 }
