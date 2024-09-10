@@ -14,5 +14,6 @@
     "errorMessage": "发生错误。请稍后再试。",
     "edit": "编辑",
     "tweets": "鸣叫",
-    "likes": "很好。"
+    "likes": "很好。",
+    "tweetHintText": "你现在怎么样？"
 }

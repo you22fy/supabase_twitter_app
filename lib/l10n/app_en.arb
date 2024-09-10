@@ -14,5 +14,6 @@
     "errorMessage": "An error has occurred. Please try again in a few minutes.",
     "edit": "editing",
     "tweets": "tweet",
-    "likes": "Great."
+    "likes": "Great.",
+    "tweetHintText": "What are you doing now?"
 }

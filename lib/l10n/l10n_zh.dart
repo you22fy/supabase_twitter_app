@@ -50,4 +50,7 @@ class L10nZh extends L10n {
 
   @override
   String get likes => '很好。';
+
+  @override
+  String get tweetHintText => '你现在怎么样？';
 }

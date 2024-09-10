@@ -14,5 +14,6 @@
     "errorMessage": "Une erreur s'est produite. Veuillez réessayer après un certain temps.",
     "edit": "édition",
     "tweets": "tweet",
-    "likes": "Bon."
+    "likes": "Bon.",
+    "tweetHintText": "Comment allez-vous maintenant ?"
 }

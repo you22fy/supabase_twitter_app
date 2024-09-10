@@ -50,4 +50,7 @@ class L10nFr extends L10n {
 
   @override
   String get likes => 'Bon.';
+
+  @override
+  String get tweetHintText => 'Comment allez-vous maintenant ?';
 }

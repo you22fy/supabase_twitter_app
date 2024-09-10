@@ -14,5 +14,6 @@
     "errorMessage": "오류가 발생했습니다. 시간을 두고 다시 시도해 주세요.",
     "edit": "편집",
     "tweets": "트윗",
-    "likes": "좋아요"
+    "likes": "좋아요",
+    "tweetHintText": "지금 어떻게 지내세요?"
 }

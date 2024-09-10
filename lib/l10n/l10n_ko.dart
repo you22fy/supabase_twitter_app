@@ -50,4 +50,7 @@ class L10nKo extends L10n {
 
   @override
   String get likes => '좋아요';
+
+  @override
+  String get tweetHintText => '지금 어떻게 지내세요?';
 }

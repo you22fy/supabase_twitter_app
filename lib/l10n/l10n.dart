@@ -190,6 +190,12 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'いいね'**
   String get likes;
+
+  /// No description provided for @tweetHintText.
+  ///
+  /// In ja, this message translates to:
+  /// **'いまどうしてる？'**
+  String get tweetHintText;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {
