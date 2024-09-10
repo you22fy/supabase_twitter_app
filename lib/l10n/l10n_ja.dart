@@ -59,4 +59,7 @@ class L10nJa extends L10n {
 
   @override
   String get selectLanguageCaution => '※ 言語を変更すると、アプリの表示言語が即時に切り替わります。';
+
+  @override
+  String get close => '閉じる';
 }

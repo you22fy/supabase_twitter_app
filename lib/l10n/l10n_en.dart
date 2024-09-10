@@ -59,4 +59,7 @@ class L10nEn extends L10n {
 
   @override
   String get selectLanguageCaution => 'When you change the language, the display language of the application is immediately switched.';
+
+  @override
+  String get close => 'close (e.g. book, eyes, meeting, etc.)';
 }

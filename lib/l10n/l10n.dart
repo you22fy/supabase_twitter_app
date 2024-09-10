@@ -208,6 +208,12 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'※ 言語を変更すると、アプリの表示言語が即時に切り替わります。'**
   String get selectLanguageCaution;
+
+  /// No description provided for @close.
+  ///
+  /// In ja, this message translates to:
+  /// **'閉じる'**
+  String get close;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

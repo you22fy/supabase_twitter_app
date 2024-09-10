@@ -59,4 +59,7 @@ class L10nZh extends L10n {
 
   @override
   String get selectLanguageCaution => '更改语言可立即切换应用程序的显示语言。';
+
+  @override
+  String get close => '贴近';
 }

@@ -52,7 +52,7 @@ class LanguageSelectorDialog extends ConsumerWidget {
       actions: [
         TextButton(
           onPressed: () => Navigator.of(context).pop(),
-          child: const Text('閉じる'),
+          child: Text(L10n.of(context)!.close),
         ),
       ],
     );

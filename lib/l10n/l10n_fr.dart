@@ -59,4 +59,7 @@ class L10nFr extends L10n {
 
   @override
   String get selectLanguageCaution => 'Le changement de langue modifie immédiatement la langue d\'affichage de l\'application.';
+
+  @override
+  String get close => 'proche (par ex. livre, yeux, rencontre, etc.)';
 }

@@ -59,4 +59,7 @@ class L10nKo extends L10n {
 
   @override
   String get selectLanguageCaution => '언어를 변경하면 앱의 표시 언어가 즉시 전환됩니다.';
+
+  @override
+  String get close => '닫기';
 }
