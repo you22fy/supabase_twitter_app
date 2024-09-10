@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'gen/assets.gen.dart';
+import 'pages/app_license/app_license_page.dart';
 import 'pages/index/index_page.dart';
 import 'pages/new_post/new_post_page.dart';
 import 'pages/profile/profile_page.dart';
@@ -86,19 +86,7 @@ final routerProvider = Provider<GoRouter>(
           pageBuilder: (context, state) {
             return MaterialPage(
               key: state.pageKey,
-              child: LicensePage(
-                applicationName: 'Supabase Twitter App',
-                applicationVersion: '1.0.0',
-                applicationIcon: Assets.images.twitterLogo.svg(
-                  width: 48,
-                  height: 48,
-                  colorFilter: ColorFilter.mode(
-                    Colors.purple[400]!,
-                    BlendMode.srcIn,
-                  ),
-                ),
-                applicationLegalese: 'This application is open source.',
-              ),
+              child: const AppLicensePage(),
             );
           },
         ),
