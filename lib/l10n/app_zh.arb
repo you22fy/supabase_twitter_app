@@ -6,5 +6,9 @@
     "signIn": "登录",
     "signUp": "新注册",
     "logout": "注销",
-    "license": "许可"
+    "license": "许可",
+    "notSet": "彷徨",
+    "profile": "简介",
+    "themeMode": "主题",
+    "language": "语言"
 }

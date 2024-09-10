@@ -26,4 +26,16 @@ class L10nZh extends L10n {
 
   @override
   String get license => '许可';
+
+  @override
+  String get notSet => '彷徨';
+
+  @override
+  String get profile => '简介';
+
+  @override
+  String get themeMode => '主题';
+
+  @override
+  String get language => '语言';
 }

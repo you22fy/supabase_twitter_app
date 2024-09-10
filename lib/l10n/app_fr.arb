@@ -6,5 +6,9 @@
     "signIn": "connexion",
     "signUp": "Nouvel enregistrement",
     "logout": "déconnexion",
-    "license": "licence"
+    "license": "licence",
+    "notSet": "déstabilisé",
+    "profile": "Profil.",
+    "themeMode": "thème",
+    "language": "Langue."
 }

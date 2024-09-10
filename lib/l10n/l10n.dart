@@ -142,6 +142,30 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'ライセンス'**
   String get license;
+
+  /// No description provided for @notSet.
+  ///
+  /// In ja, this message translates to:
+  /// **'未設定'**
+  String get notSet;
+
+  /// No description provided for @profile.
+  ///
+  /// In ja, this message translates to:
+  /// **'プロフィール'**
+  String get profile;
+
+  /// No description provided for @themeMode.
+  ///
+  /// In ja, this message translates to:
+  /// **'テーマ'**
+  String get themeMode;
+
+  /// No description provided for @language.
+  ///
+  /// In ja, this message translates to:
+  /// **'言語'**
+  String get language;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

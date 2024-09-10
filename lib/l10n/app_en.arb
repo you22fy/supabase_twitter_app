@@ -6,5 +6,9 @@
     "signIn": "Login",
     "signUp": "New Registration",
     "logout": "logout",
-    "license": "License"
+    "license": "License",
+    "notSet": "unset",
+    "profile": "Profile",
+    "themeMode": "theme",
+    "language": "Language"
 }

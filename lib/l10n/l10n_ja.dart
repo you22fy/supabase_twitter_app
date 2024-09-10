@@ -26,4 +26,16 @@ class L10nJa extends L10n {
 
   @override
   String get license => 'ライセンス';
+
+  @override
+  String get notSet => '未設定';
+
+  @override
+  String get profile => 'プロフィール';
+
+  @override
+  String get themeMode => 'テーマ';
+
+  @override
+  String get language => '言語';
 }

@@ -26,4 +26,16 @@ class L10nFr extends L10n {
 
   @override
   String get license => 'licence';
+
+  @override
+  String get notSet => 'déstabilisé';
+
+  @override
+  String get profile => 'Profil.';
+
+  @override
+  String get themeMode => 'thème';
+
+  @override
+  String get language => 'Langue.';
 }

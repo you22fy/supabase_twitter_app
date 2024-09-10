@@ -26,4 +26,16 @@ class L10nKo extends L10n {
 
   @override
   String get license => '라이선스';
+
+  @override
+  String get notSet => '미설정';
+
+  @override
+  String get profile => '프로필';
+
+  @override
+  String get themeMode => '테마';
+
+  @override
+  String get language => '언어';
 }

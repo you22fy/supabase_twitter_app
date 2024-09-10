@@ -1,5 +1,7 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../models/app_user.dart';
+
 class UserRepository {
   Future<User> signUp({
     required String email,
@@ -47,5 +49,17 @@ class UserRepository {
   Future<void> signOut() async {
     final supabase = Supabase.instance.client;
     await supabase.auth.signOut();
+  }
+
+  Future<AppUserModel> getUserInfo(String userId) async {
+    final supabase = Supabase.instance.client;
+    final response = await supabase.from('users').select().eq('id', userId);
+    if (response.isEmpty || response.length > 1) {
+      throw Exception('Failed to get user info: User not found');
+    }
+    print(response.first);
+    return AppUserModel.fromJson(
+      response.first,
+    );
   }
 }

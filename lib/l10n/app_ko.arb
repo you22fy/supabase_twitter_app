@@ -6,5 +6,9 @@
     "signIn": "로그인",
     "signUp": "신규 등록",
     "logout": "로그아웃",
-    "license": "라이선스"
+    "license": "라이선스",
+    "notSet": "미설정",
+    "profile": "프로필",
+    "themeMode": "테마",
+    "language": "언어"
 }

@@ -26,4 +26,16 @@ class L10nEn extends L10n {
 
   @override
   String get license => 'License';
+
+  @override
+  String get notSet => 'unset';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get themeMode => 'theme';
+
+  @override
+  String get language => 'Language';
 }
