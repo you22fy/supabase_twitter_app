@@ -7,8 +7,17 @@ class L10nFr extends L10n {
   L10nFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get helloWorld => 'Bonjour à tous !';
+  String get password => 'mot de passe (ordinateur)';
 
   @override
-  String get sample_string => 'Je m\'appelle Taro Yamada !';
+  String get confirmPassword => 'vérification du mot de passe';
+
+  @override
+  String get mail => 'adresse électronique';
+
+  @override
+  String get signIn => 'connexion';
+
+  @override
+  String get signUp => 'Nouvel enregistrement';
 }

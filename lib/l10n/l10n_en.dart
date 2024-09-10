@@ -7,8 +7,17 @@ class L10nEn extends L10n {
   L10nEn([String locale = 'en']) : super(locale);
 
   @override
-  String get helloWorld => 'Hello World!';
+  String get password => '(computer) password';
 
   @override
-  String get sample_string => 'My name is Taro Yamada!';
+  String get confirmPassword => 'Password Confirmation';
+
+  @override
+  String get mail => 'Email Address';
+
+  @override
+  String get signIn => 'Login';
+
+  @override
+  String get signUp => 'New Registration';
 }

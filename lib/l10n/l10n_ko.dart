@@ -7,8 +7,17 @@ class L10nKo extends L10n {
   L10nKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get helloWorld => '안녕하세요 세계여러분!';
+  String get password => '비밀번호';
 
   @override
-  String get sample_string => '제 이름은 야마다 타로입니다!';
+  String get confirmPassword => '비밀번호 확인';
+
+  @override
+  String get mail => '이메일 주소';
+
+  @override
+  String get signIn => '로그인';
+
+  @override
+  String get signUp => '신규 등록';
 }

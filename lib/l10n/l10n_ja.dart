@@ -7,8 +7,17 @@ class L10nJa extends L10n {
   L10nJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get helloWorld => 'こんにちは 世界!';
+  String get password => 'パスワード';
 
   @override
-  String get sample_string => '私の名前は山田太郎です！';
+  String get confirmPassword => 'パスワード確認';
+
+  @override
+  String get mail => 'メールアドレス';
+
+  @override
+  String get signIn => 'ログイン';
+
+  @override
+  String get signUp => '新規登録';
 }

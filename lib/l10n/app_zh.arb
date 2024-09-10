@@ -1,5 +1,8 @@
 {
     "@@locale": "zh",
-    "helloWorld": "世界你好",
-    "sample_string": "我叫山田太郎！"
+    "password": "密码",
+    "confirmPassword": "密码验证",
+    "mail": "电子邮件地址",
+    "signIn": "登录",
+    "signUp": "新注册"
 }

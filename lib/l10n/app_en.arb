@@ -1,5 +1,8 @@
 {
     "@@locale": "en",
-    "helloWorld": "Hello World!",
-    "sample_string": "My name is Taro Yamada!"
+    "password": "(computer) password",
+    "confirmPassword": "Password Confirmation",
+    "mail": "Email Address",
+    "signIn": "Login",
+    "signUp": "New Registration"
 }

@@ -101,17 +101,35 @@ abstract class L10n {
     Locale('zh')
   ];
 
-  /// The conventional newborn programmer greeting
+  /// パスワードプレースホルダーに使用されるテキスト
   ///
   /// In ja, this message translates to:
-  /// **'こんにちは 世界!'**
-  String get helloWorld;
+  /// **'パスワード'**
+  String get password;
 
-  /// Sample string to demonstrate localization
+  /// パスワード確認プレースホルダーに使用されるテキスト
   ///
   /// In ja, this message translates to:
-  /// **'私の名前は山田太郎です！'**
-  String get sample_string;
+  /// **'パスワード確認'**
+  String get confirmPassword;
+
+  /// メールアドレスプレースホルダーに使用されるテキスト
+  ///
+  /// In ja, this message translates to:
+  /// **'メールアドレス'**
+  String get mail;
+
+  /// No description provided for @signIn.
+  ///
+  /// In ja, this message translates to:
+  /// **'ログイン'**
+  String get signIn;
+
+  /// No description provided for @signUp.
+  ///
+  /// In ja, this message translates to:
+  /// **'新規登録'**
+  String get signUp;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

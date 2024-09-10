@@ -7,8 +7,8 @@ import '../../components/text_field/single_line_text_field.dart';
 import '../../gen/assets.gen.dart';
 import '../../l10n/l10n.dart';
 
-class SignUpPage extends HookConsumerWidget {
-  const SignUpPage({super.key});
+class SignInPage extends HookConsumerWidget {
+  const SignInPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -34,14 +34,10 @@ class SignUpPage extends HookConsumerWidget {
               ),
               const SizedBox(height: 16),
               const PasswordTextField(),
-              const SizedBox(height: 16),
-              PasswordTextField(
-                hintText: L10n.of(context)!.confirmPassword,
-              ),
               const SizedBox(height: 32),
               LargeButton(
                 onPressed: () {
-                  debugPrint('Sign Up');
+                  debugPrint('Sign In');
                 },
                 text: L10n.of(context)!.signUp,
               ),

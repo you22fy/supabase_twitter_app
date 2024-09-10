@@ -5,7 +5,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'pages/index/index_page.dart';
 import 'pages/new_post/new_post_page.dart';
 import 'pages/profile/profile_page.dart';
-import 'pages/sign_in/login_page.dart';
+import 'pages/sign_in/sign_in_page.dart';
 import 'pages/sign_up/sign_up_page.dart';
 
 final routerProvider = Provider<GoRouter>(

@@ -1,11 +1,17 @@
 {
   "@@locale": "ja",
-  "helloWorld": "こんにちは 世界!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
+  "password": "パスワード",
+  "@password": {
+    "description": "パスワードプレースホルダーに使用されるテキスト"
   },
-  "sample_string": "私の名前は山田太郎です！",
-  "@sample_string": {
-    "description": "Sample string to demonstrate localization"
-  }
+  "confirmPassword": "パスワード確認",
+  "@confirmPassword": {
+    "description": "パスワード確認プレースホルダーに使用されるテキスト"
+  },
+  "mail": "メールアドレス",
+  "@mail": {
+    "description": "メールアドレスプレースホルダーに使用されるテキスト"
+  },
+  "signIn": "ログイン",
+  "signUp": "新規登録"
 }
