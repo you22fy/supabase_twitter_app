@@ -25,6 +25,8 @@ class IndexPage extends HookConsumerWidget {
             onRefresh: () async {
               ref.invalidate(indexPageNotifierProvider);
             },
+            onDelete: (id) =>
+                ref.read(indexPageNotifierProvider.notifier).deleteTweet(id),
           ),
         AsyncError(:final error) => ErrorScreen(
             message: error.toString(),

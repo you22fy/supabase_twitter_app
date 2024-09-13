@@ -1,7 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 import '../../models/tweet.dart';
-import '../../repositories/tweet.dart';
+import '../../repositories/tweet_repository.dart';
 
 part 'index_page_controller.g.dart';
 
@@ -23,6 +23,12 @@ class IndexPageNotifier extends _$IndexPageNotifier {
   }
 
   Future<void> refreshTweets() async {
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(_fetchTweets);
+  }
+
+  Future<void> deleteTweet(String id) async {
+    await TweetRepository().deleteTweet(id);
     state = const AsyncValue.loading();
     state = await AsyncValue.guard(_fetchTweets);
   }

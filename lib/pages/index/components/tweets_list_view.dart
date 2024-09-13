@@ -5,10 +5,16 @@ import 'package:intl/intl.dart';
 import '../../../models/tweet.dart';
 
 class TweetsListView extends HookConsumerWidget {
-  const TweetsListView(this.tweets, {required this.onRefresh, super.key});
+  const TweetsListView(
+    this.tweets, {
+    required this.onRefresh,
+    required this.onDelete,
+    super.key,
+  });
 
   final List<Tweet> tweets;
   final Future<void> Function() onRefresh;
+  final Future<void> Function(String id) onDelete;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -30,6 +36,34 @@ class TweetsListView extends HookConsumerWidget {
                 tweet.createdAt,
               ),
             ),
+            onLongPress: () async {
+              await showDialog<void>(
+                context: context,
+                builder: (context) {
+                  return AlertDialog(
+                    title: const Text('Delete this tweet?'),
+                    actions: [
+                      TextButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                        child: const Text('Cancel'),
+                      ),
+                      TextButton(
+                        onPressed: () async {
+                          await onDelete(tweet.id);
+                          if (!context.mounted) {
+                            return;
+                          }
+                          Navigator.pop(context);
+                        },
+                        child: const Text('Delete'),
+                      ),
+                    ],
+                  );
+                },
+              );
+            },
           );
         }).toList(),
       ),

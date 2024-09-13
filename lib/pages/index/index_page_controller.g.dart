@@ -6,7 +6,7 @@ part of 'index_page_controller.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$indexPageNotifierHash() => r'92391a53fa95647b6d340daaf6a74dbfdd8d0ee4';
+String _$indexPageNotifierHash() => r'faa3ab4d301bc5aee1559586003268e391cd475a';
 
 /// See also [IndexPageNotifier].
 @ProviderFor(IndexPageNotifier)

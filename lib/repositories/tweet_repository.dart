@@ -26,4 +26,9 @@ class TweetRepository {
       'user_id': supabase.auth.currentUser!.id,
     });
   }
+
+  Future<void> deleteTweet(String id) async {
+    final supabase = Supabase.instance.client;
+    await supabase.from('tweets').delete().eq('id', id);
+  }
 }
