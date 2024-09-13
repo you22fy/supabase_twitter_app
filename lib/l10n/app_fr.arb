@@ -18,5 +18,6 @@
     "tweetHintText": "Comment allez-vous maintenant ?",
     "selectLanguage": "Sélection de la langue",
     "selectLanguageCaution": "Le changement de langue modifie immédiatement la langue d'affichage de l'application.",
-    "close": "proche (par ex. livre, yeux, rencontre, etc.)"
+    "close": "proche (par ex. livre, yeux, rencontre, etc.)",
+    "postTweet": "tweet"
 }

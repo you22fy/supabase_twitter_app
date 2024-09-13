@@ -62,4 +62,7 @@ class L10nFr extends L10n {
 
   @override
   String get close => 'proche (par ex. livre, yeux, rencontre, etc.)';
+
+  @override
+  String get postTweet => 'tweet';
 }

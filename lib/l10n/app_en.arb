@@ -18,5 +18,6 @@
     "tweetHintText": "What are you doing now?",
     "selectLanguage": "Language Selection",
     "selectLanguageCaution": "When you change the language, the display language of the application is immediately switched.",
-    "close": "close (e.g. book, eyes, meeting, etc.)"
+    "close": "close (e.g. book, eyes, meeting, etc.)",
+    "postTweet": "tweet"
 }

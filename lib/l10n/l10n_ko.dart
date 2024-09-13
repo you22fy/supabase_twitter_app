@@ -62,4 +62,7 @@ class L10nKo extends L10n {
 
   @override
   String get close => '닫기';
+
+  @override
+  String get postTweet => '트윗';
 }

@@ -9,7 +9,21 @@ part 'index_page_controller.g.dart';
 class IndexPageNotifier extends _$IndexPageNotifier {
   @override
   Future<List<Tweet>> build() async {
-    final tweets = await TweetRepository().getTweets();
-    return tweets;
+    return _fetchTweets();
+  }
+
+  Future<List<Tweet>> _fetchTweets() async {
+    return await TweetRepository().getTweets();
+  }
+
+  Future<void> postTweet(String content) async {
+    await TweetRepository().postTweet(content);
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(_fetchTweets);
+  }
+
+  Future<void> refreshTweets() async {
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(_fetchTweets);
   }
 }

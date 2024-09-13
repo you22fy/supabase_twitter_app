@@ -22,7 +22,7 @@ class IndexPage extends HookConsumerWidget {
       body: switch (state) {
         AsyncData(:final value) => TweetsListView(
             value,
-            onRefresh: () async{
+            onRefresh: () async {
               ref.invalidate(indexPageNotifierProvider);
             },
           ),
@@ -41,7 +41,13 @@ class IndexPage extends HookConsumerWidget {
             context: context,
             isScrollControlled: true,
             builder: (context) {
-              return const TweetModal();
+              return TweetModal(
+                onPosted: (String content) async {
+                  await ref
+                      .read(indexPageNotifierProvider.notifier)
+                      .postTweet(content);
+                },
+              );
             },
           );
         },

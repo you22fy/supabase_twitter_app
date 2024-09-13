@@ -214,6 +214,12 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'閉じる'**
   String get close;
+
+  /// No description provided for @postTweet.
+  ///
+  /// In ja, this message translates to:
+  /// **'ツイート'**
+  String get postTweet;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

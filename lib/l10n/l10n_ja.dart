@@ -62,4 +62,7 @@ class L10nJa extends L10n {
 
   @override
   String get close => '閉じる';
+
+  @override
+  String get postTweet => 'ツイート';
 }

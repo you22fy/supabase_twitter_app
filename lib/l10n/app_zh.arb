@@ -18,5 +18,6 @@
     "tweetHintText": "你现在怎么样？",
     "selectLanguage": "语言选择",
     "selectLanguageCaution": "更改语言可立即切换应用程序的显示语言。",
-    "close": "贴近"
+    "close": "贴近",
+    "postTweet": "鸣叫"
 }

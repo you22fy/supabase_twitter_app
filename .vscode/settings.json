@@ -11,7 +11,8 @@
     "spabase",
     "subosito",
     "Subtags",
-    "supabase"
+    "supabase",
+    "upsert"
   ],
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,

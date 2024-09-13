@@ -62,4 +62,7 @@ class L10nEn extends L10n {
 
   @override
   String get close => 'close (e.g. book, eyes, meeting, etc.)';
+
+  @override
+  String get postTweet => 'tweet';
 }

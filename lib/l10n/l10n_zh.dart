@@ -62,4 +62,7 @@ class L10nZh extends L10n {
 
   @override
   String get close => '贴近';
+
+  @override
+  String get postTweet => '鸣叫';
 }

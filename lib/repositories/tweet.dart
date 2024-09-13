@@ -18,4 +18,12 @@ class TweetRepository {
 
     return ret;
   }
+
+  Future<void> postTweet(String content) async {
+    final supabase = Supabase.instance.client;
+    await supabase.from('tweets').upsert({
+      'content': content,
+      'user_id': supabase.auth.currentUser!.id,
+    });
+  }
 }
