@@ -16,16 +16,19 @@ class LocaleNotifier extends _$LocaleNotifier {
   final prefs = SharedPreferencesInstance().prefs;
   @override
   Locale build() {
-    final system = WidgetsBinding.instance.platformDispatcher.locale;
-    final loaded = prefs.getString(PrefKey.locale);
-    final locale = loaded == null ? system : Locale(loaded);
+    final systemLanguage =
+        WidgetsBinding.instance.platformDispatcher.locale.languageCode;
+    final loadedLanguage = prefs.getString(PrefKey.languageCode);
+    final locale = loadedLanguage == null
+        ? Locale.fromSubtags(languageCode: systemLanguage)
+        : Locale.fromSubtags(languageCode: loadedLanguage);
     return locale;
   }
 
   /// localeを更新する
   Future<void> setLocale(Locale locale) async {
     if (L10n.supportedLocales.contains(locale)) {
-      await prefs.setString(PrefKey.locale, locale.languageCode);
+      await prefs.setString(PrefKey.languageCode, locale.languageCode);
       state = locale;
     } else {
       throw Exception('Unsupported language code');

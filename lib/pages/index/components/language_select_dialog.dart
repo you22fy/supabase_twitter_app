@@ -10,7 +10,8 @@ class LanguageSelectorDialog extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final currentLocale = ref.watch(localeNotifierProvider);
-
+    print('currentLocale: $currentLocale');
+    print(L10n.supportedLocales);
     return AlertDialog(
       title: Text(L10n.of(context)!.selectLanguage),
       content: SizedBox(

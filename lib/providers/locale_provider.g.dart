@@ -6,7 +6,7 @@ part of 'locale_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$localeNotifierHash() => r'9194ab2ab30ef9a6de27fdee848d4101d95cdd79';
+String _$localeNotifierHash() => r'feb43803966c027c31304fc034b88d9f5bd3008d';
 
 /// 現在のロケール（言語情報）を提供する
 ///
