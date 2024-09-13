@@ -220,6 +220,24 @@ abstract class L10n {
   /// In ja, this message translates to:
   /// **'ツイート'**
   String get postTweet;
+
+  /// No description provided for @deleteTweet.
+  ///
+  /// In ja, this message translates to:
+  /// **'ツイートを削除'**
+  String get deleteTweet;
+
+  /// No description provided for @cancel.
+  ///
+  /// In ja, this message translates to:
+  /// **'キャンセル'**
+  String get cancel;
+
+  /// No description provided for @delete.
+  ///
+  /// In ja, this message translates to:
+  /// **'削除'**
+  String get delete;
 }
 
 class _L10nDelegate extends LocalizationsDelegate<L10n> {

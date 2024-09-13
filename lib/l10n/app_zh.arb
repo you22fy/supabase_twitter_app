@@ -19,5 +19,8 @@
     "selectLanguage": "语言选择",
     "selectLanguageCaution": "更改语言可立即切换应用程序的显示语言。",
     "close": "贴近",
-    "postTweet": "鸣叫"
+    "postTweet": "鸣叫",
+    "deleteTweet": "删除的推文",
+    "cancel": "取消",
+    "delete": "删减"
 }

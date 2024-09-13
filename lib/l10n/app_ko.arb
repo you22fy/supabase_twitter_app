@@ -19,5 +19,8 @@
     "selectLanguage": "언어 선택",
     "selectLanguageCaution": "언어를 변경하면 앱의 표시 언어가 즉시 전환됩니다.",
     "close": "닫기",
-    "postTweet": "트윗"
+    "postTweet": "트윗",
+    "deleteTweet": "트윗 삭제",
+    "cancel": "취소",
+    "delete": "삭제"
 }

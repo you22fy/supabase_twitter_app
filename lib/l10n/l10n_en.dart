@@ -65,4 +65,13 @@ class L10nEn extends L10n {
 
   @override
   String get postTweet => 'tweet';
+
+  @override
+  String get deleteTweet => 'Delete Tweet';
+
+  @override
+  String get cancel => 'cancel';
+
+  @override
+  String get delete => 'deletion';
 }

@@ -65,4 +65,13 @@ class L10nKo extends L10n {
 
   @override
   String get postTweet => '트윗';
+
+  @override
+  String get deleteTweet => '트윗 삭제';
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get delete => '삭제';
 }

@@ -65,4 +65,13 @@ class L10nZh extends L10n {
 
   @override
   String get postTweet => '鸣叫';
+
+  @override
+  String get deleteTweet => '删除的推文';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get delete => '删减';
 }

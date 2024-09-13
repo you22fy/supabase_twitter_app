@@ -28,5 +28,8 @@
   "selectLanguage" : "言語選択",
   "selectLanguageCaution" : "※ 言語を変更すると、アプリの表示言語が即時に切り替わります。",
   "close" : "閉じる",
-  "postTweet" : "ツイート"
+  "postTweet" : "ツイート",
+  "deleteTweet" : "ツイートを削除",
+  "cancel" : "キャンセル",
+  "delete" : "削除"
 }

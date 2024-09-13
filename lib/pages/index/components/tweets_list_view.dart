@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 
+import '../../../l10n/l10n.dart';
 import '../../../models/tweet.dart';
 
 class TweetsListView extends HookConsumerWidget {
@@ -41,13 +42,13 @@ class TweetsListView extends HookConsumerWidget {
                 context: context,
                 builder: (context) {
                   return AlertDialog(
-                    title: const Text('Delete this tweet?'),
+                    title: Text(L10n.of(context)!.deleteTweet),
                     actions: [
                       TextButton(
                         onPressed: () {
                           Navigator.pop(context);
                         },
-                        child: const Text('Cancel'),
+                        child: Text(L10n.of(context)!.cancel),
                       ),
                       TextButton(
                         onPressed: () async {
@@ -57,7 +58,7 @@ class TweetsListView extends HookConsumerWidget {
                           }
                           Navigator.pop(context);
                         },
-                        child: const Text('Delete'),
+                        child: Text(L10n.of(context)!.delete),
                       ),
                     ],
                   );

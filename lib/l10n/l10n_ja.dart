@@ -65,4 +65,13 @@ class L10nJa extends L10n {
 
   @override
   String get postTweet => 'ツイート';
+
+  @override
+  String get deleteTweet => 'ツイートを削除';
+
+  @override
+  String get cancel => 'キャンセル';
+
+  @override
+  String get delete => '削除';
 }
