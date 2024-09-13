@@ -1,10 +1,12 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-part 'current_user_provider.g.dart';
+part 'current_user_session.g.dart';
 
+/// ユーザがサインインしているかどうかを判定する
+/// 実際のユーザーデータは[AppUserNotifierProvider]で取得する
 @Riverpod(keepAlive: true)
-User? currentUserNotifier(CurrentUserNotifierRef ref) {
+User? currentUserSession(CurrentUserSessionRef ref) {
   final asyncState = ref.watch(currentUserStreamProvider);
   switch (asyncState) {
     case AsyncData(:final value):

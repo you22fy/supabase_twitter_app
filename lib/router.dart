@@ -8,11 +8,11 @@ import 'pages/new_post/new_post_page.dart';
 import 'pages/profile/profile_page.dart';
 import 'pages/sign_in/sign_in_page.dart';
 import 'pages/sign_up/sign_up_page.dart';
-import 'providers/current_user_provider.dart';
+import 'providers/current_user_session.dart';
 
 final routerProvider = Provider<GoRouter>(
   (ref) {
-    final currentUser = ref.watch(currentUserNotifierProvider);
+    final currentUser = ref.watch(currentUserSessionProvider);
     return GoRouter(
       initialLocation: '/',
       routes: [

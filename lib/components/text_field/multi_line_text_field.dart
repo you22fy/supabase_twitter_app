@@ -4,6 +4,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class MultiLineTextField extends HookConsumerWidget {
+  /// 複数行入力に対応したテキストフィールド
   const MultiLineTextField({
     this.controller,
     this.focusNode,

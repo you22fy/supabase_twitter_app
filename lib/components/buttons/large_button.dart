@@ -10,6 +10,20 @@ enum _LargeButtonVariant {
 }
 
 class LargeButton extends StatelessWidget {
+  /// 大きなボタン
+  ///
+  /// [LargeButton] : primaryカラーのボタン(default)
+  ///
+  ///
+  /// [LargeButton.secondary] : secondaryカラーのボタン
+  ///
+  ///
+  /// [LargeButton.disabled] : disabledカラーのボタン。この時はonPressedが必要ない
+  ///
+  ///
+  /// [LargeButton.warning] : warningカラーのボタン
+  ///
+
   const LargeButton({
     super.key,
     required this.text,

@@ -2,6 +2,9 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../models/app_user.dart';
 
+/// Userに関するデータの取得や更新を行う
+///
+/// supabaseを利用している。
 class UserRepository {
   Future<User> signUp({
     required String email,

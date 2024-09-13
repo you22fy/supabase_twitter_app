@@ -5,6 +5,10 @@ import '../l10n/l10n.dart';
 
 part 'locale_provider.g.dart';
 
+/// 現在のロケール（言語情報）を提供する
+///
+/// デフォルトでは端末の設定に従い、ユーザーが明示的に変更を行なった場合はその値が参照されるようになる。
+///
 @riverpod
 class LocaleNotifier extends _$LocaleNotifier {
   @override

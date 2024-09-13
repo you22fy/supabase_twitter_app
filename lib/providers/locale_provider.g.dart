@@ -8,7 +8,12 @@ part of 'locale_provider.dart';
 
 String _$localeNotifierHash() => r'599fcfe82c5be409798e8390f820f2ac63bcedf4';
 
-/// See also [LocaleNotifier].
+/// 現在のロケール（言語情報）を提供する
+///
+/// デフォルトでは端末の設定に従い、ユーザーが明示的に変更を行なった場合はその値が参照されるようになる。
+///
+///
+/// Copied from [LocaleNotifier].
 @ProviderFor(LocaleNotifier)
 final localeNotifierProvider =
     AutoDisposeNotifierProvider<LocaleNotifier, Locale>.internal(

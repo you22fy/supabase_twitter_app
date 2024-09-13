@@ -8,6 +8,7 @@ analyzer:
   errors:
     invalid_annotation_target: ignore
     avoid_classes_with_only_static_members: ignore
+    comment_references: ignore
 
 include: package:pedantic_mono/analysis_options.yaml
 

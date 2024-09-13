@@ -6,9 +6,13 @@ part of 'app_user_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$appUserNotifierHash() => r'd3ddd069352a88e789ce87a8cc3fbe55623eae09';
+String _$appUserNotifierHash() => r'ec4ee0e9318b43f3a0f442f0e10cdee7c0fc9f62';
 
-/// See also [appUserNotifier].
+/// 現在ログインしているユーザーの情報を提供する
+///
+/// 未ログイン時にこのproviderを参照すると例外をスローする
+///
+/// Copied from [appUserNotifier].
 @ProviderFor(appUserNotifier)
 final appUserNotifierProvider = FutureProvider<AppUserModel>.internal(
   appUserNotifier,

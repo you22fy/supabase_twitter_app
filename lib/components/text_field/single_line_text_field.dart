@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class SingleLineTextField extends HookConsumerWidget {
+  /// 1行のテキストフィールド
   const SingleLineTextField({
     this.controller,
     this.focusNode,

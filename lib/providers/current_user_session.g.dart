@@ -1,27 +1,30 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'current_user_provider.dart';
+part of 'current_user_session.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$currentUserNotifierHash() =>
-    r'99704eaca558aa67515a8e5709539794854d559d';
+String _$currentUserSessionHash() =>
+    r'2bae67b3edd7ac8e617846bcf142e9505e353726';
 
-/// See also [currentUserNotifier].
-@ProviderFor(currentUserNotifier)
-final currentUserNotifierProvider = Provider<User?>.internal(
-  currentUserNotifier,
-  name: r'currentUserNotifierProvider',
+/// ユーザがサインインしているかどうかを判定する
+/// 実際のユーザーデータは[AppUserNotifierProvider]で取得する
+///
+/// Copied from [currentUserSession].
+@ProviderFor(currentUserSession)
+final currentUserSessionProvider = Provider<User?>.internal(
+  currentUserSession,
+  name: r'currentUserSessionProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
       ? null
-      : _$currentUserNotifierHash,
+      : _$currentUserSessionHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef CurrentUserNotifierRef = ProviderRef<User?>;
+typedef CurrentUserSessionRef = ProviderRef<User?>;
 String _$currentUserStreamHash() => r'fa4ae15f8356cad8a8dd63c6d7bed0e4460e148b';
 
 /// See also [currentUserStream].

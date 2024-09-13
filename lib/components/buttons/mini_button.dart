@@ -11,6 +11,22 @@ enum _MiniButtonVariant {
 }
 
 class MiniButton extends StatelessWidget {
+  /// 小さなボタン
+  ///
+  /// [MiniButton] : primaryカラーのボタン(default)
+  ///
+  ///
+  /// [MiniButton.secondary] : secondaryカラーのボタン
+  ///
+  ///
+  /// [MiniButton.disabled] : disabledカラーのボタン。この時はonPressedが必要ない
+  ///
+  ///
+  /// [MiniButton.warning] : warningカラーのボタン
+  ///
+  ///
+  /// [MiniButton.outlined] : outlinedカラーのボタン
+
   const MiniButton({
     super.key,
     required this.text,

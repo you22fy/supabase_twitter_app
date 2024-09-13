@@ -5,6 +5,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../../l10n/l10n.dart';
 
 class PasswordTextField extends HookConsumerWidget {
+  /// パスワード入力用のテキストフィールド
+  ///
+  /// 文字はデフォルトで非表示になっており、その表示を切り替えるアイコンが右側に表示される
   const PasswordTextField({
     this.controller,
     this.focusNode,
