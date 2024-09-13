@@ -10,6 +10,7 @@
     "pubspec",
     "spabase",
     "subosito",
+    "Subtags",
     "supabase"
   ],
   "explorer.fileNesting.enabled": true,

@@ -6,6 +6,7 @@ import '../../../l10n/l10n.dart';
 import '../../../providers/app_user_provider.dart';
 import '../../../repositories/user_repository.dart';
 import 'language_select_dialog.dart';
+import 'theme_mode_modal.dart';
 
 class AppDrawer extends HookConsumerWidget {
   const AppDrawer({super.key});
@@ -51,8 +52,13 @@ class AppDrawer extends HookConsumerWidget {
           ListTile(
             leading: const Icon(Icons.light_mode),
             title: Text(L10n.of(context)!.themeMode),
-            onTap: () {
-              debugPrint('themeMode');
+            onTap: () async {
+              await showModalBottomSheet<void>(
+                context: context,
+                builder: (context) {
+                  return const ThemeModeModal();
+                },
+              );
             },
           ),
           ListTile(

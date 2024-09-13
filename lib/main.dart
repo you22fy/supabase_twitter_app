@@ -49,10 +49,12 @@ class MyApp extends ConsumerWidget {
 
       /// ThemeMode
       theme: ThemeData(
+        colorSchemeSeed: Colors.limeAccent,
         useMaterial3: true,
         brightness: Brightness.light,
       ),
       darkTheme: ThemeData(
+        colorSchemeSeed: Colors.limeAccent,
         useMaterial3: true,
         brightness: Brightness.dark,
       ),
