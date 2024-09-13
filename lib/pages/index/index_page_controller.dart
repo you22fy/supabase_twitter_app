@@ -13,7 +13,7 @@ class IndexPageNotifier extends _$IndexPageNotifier {
   }
 
   Future<List<Tweet>> _fetchTweets() async {
-    return await TweetRepository().getTweets();
+    return TweetRepository().getTweets();
   }
 
   Future<void> postTweet(String content) async {
