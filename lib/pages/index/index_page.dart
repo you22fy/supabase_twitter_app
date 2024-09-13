@@ -20,7 +20,12 @@ class IndexPage extends HookConsumerWidget {
       ),
       drawer: const AppDrawer(),
       body: switch (state) {
-        AsyncData(:final value) => TweetsListView(value),
+        AsyncData(:final value) => TweetsListView(
+            value,
+            onRefresh: () async{
+              ref.invalidate(indexPageNotifierProvider);
+            },
+          ),
         AsyncError(:final error) => ErrorScreen(
             message: error.toString(),
             onRetry: () {
