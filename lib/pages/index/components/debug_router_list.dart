@@ -37,18 +37,6 @@ class DebugRouterList extends StatelessWidget {
             context.push('/');
           },
         ),
-        ListTile(
-          title: const Text('new_post'),
-          onTap: () {
-            context.push('/new_post');
-          },
-        ),
-        ListTile(
-          title: const Text('post_detail'),
-          onTap: () {
-            context.push('/post_detail/0');
-          },
-        ),
       ],
     );
   }
