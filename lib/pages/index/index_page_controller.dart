@@ -22,11 +22,6 @@ class IndexPageNotifier extends _$IndexPageNotifier {
     state = await AsyncValue.guard(_fetchTweets);
   }
 
-  Future<void> refreshTweets() async {
-    state = const AsyncValue.loading();
-    state = await AsyncValue.guard(_fetchTweets);
-  }
-
   Future<void> deleteTweet(String id) async {
     await TweetRepository().deleteTweet(id);
     state = const AsyncValue.loading();
